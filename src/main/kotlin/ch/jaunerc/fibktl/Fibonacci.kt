@@ -3,6 +3,13 @@ package ch.jaunerc.fibktl
 import java.math.BigInteger
 
 /**
+ * This enum indicates the different algorithms.
+ */
+enum class FibAlgorithm {
+    ITERATIVE, RECURSIVE_ACCU, RECURSIVE, TAIL_RECURSIVE
+}
+
+/**
  * Throws an exception for not defined fib numbers.
  */
 fun throwFibExceptionForUndefNum(n: Int) {
