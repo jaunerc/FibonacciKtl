@@ -28,6 +28,7 @@ fun printUsage() {
     for (algo in FibAlgorithm.values()) {
         print("$algo | ")
     }
+    println()
 }
 
 fun getCalculatorByArgs(algorithmName: String): FibCalcInterface {
